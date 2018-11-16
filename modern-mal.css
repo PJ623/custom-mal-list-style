@@ -197,8 +197,12 @@ footer > #footer-block,
         border: #EBEBEB 1px solid;
     }
 
-    .list-block, .cover-block{
+    .list-block {
         padding: 16px;
+    }
+
+    .cover-block {
+        padding: 16px 16px 0 16px;
     }
 
     .header {
