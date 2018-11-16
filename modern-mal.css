@@ -46,6 +46,10 @@ body.ownlist {
     margin-right: 15px;
 }
 
+.header .header-menu .list-menu {
+    right: 1px;
+}
+
 .header,
 footer > #footer-block,
 .list-menu-float .icon-menu:not(.profile):hover,
