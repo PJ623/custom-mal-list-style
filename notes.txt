@@ -1,0 +1,30 @@
+#list-container
+ .cover-block
+ .status-menu
+ .list-block
+  .list-unit all_anime
+   .list-status-title
+   .list stats
+    table (has data for all anime in data-items, lol)
+     tbody
+      tr.list-table-header
+       th.header-title status/number/title/score/type/progress
+     tbody.list-item
+      tr.list-table-data
+       td.data status watching
+       td.data number (number in-between td tags)
+       td.data title|score|type|progress
+      tr#more-(anime ID).more-info
+       td.more-content
+
+Most important to target:
+
+#list-container (make responsive)
+.cover-block (add image)
+tbody.list-item (on hover, display thumbnail for anime)
+
+completed: #26448f
+watching: #2db039
+onhold: #f1c83e
+dropped: #a12f31
+plantowatch: #c3c3c3

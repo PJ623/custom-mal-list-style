@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body.ownlist {
+    background-image: none;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+#list-container, .header {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+#list-container {
+    border: none;
+}
+
+.header {
+    padding: 16px;
+    position: static;
+    height: auto;
+    text-align: right;
+}
+
+.header .header-menu,
+.header .header-title {
+    display: block;
+    position: static;
+}
+
+.header .header-title {
+    display: inline-block;
+    text-align: right;
+    background-image: none;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    text-indent: 0;
+    margin-top: 16px;
+}
+
+.header .header-menu.other + .header-title {
+    margin-right: 15px;
+}
+
+.header,
+footer > #footer-block,
+.list-menu-float .icon-menu:not(.profile):hover,
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color: #244291;
+}
+
+.status-menu-container .status-menu {
+    display: block;
+    text-align: center;
+}
+
+.status-menu-container .status-menu .status-button {
+    padding: 16px;
+    display: inline-block;
+}
+
+.status-menu-container .search-container {
+    padding: 16px;
+    display: inline-block;
+    position: static;
+}
+
+.status-menu-container .search-container #search-button {
+    margin: 0;
+    display: inline;
+    /*padding: 16px;*/
+}
+
+.status-menu-container .search-container #search-box {
+    margin-top: 0;
+}
+
+/* Highlighting categories with their correpsonding colors. */
+.all_anime > *:not(.list-table),
+.all_anime:after {
+    background-color: #787878 !important;
+}
+
+.watching > *:not(.list-table),
+.reading > *:not(.list-table),
+.watching:after,
+.reading:after {
+    background-color: #2db039 !important;
+}
+
+.completed > *:not(.list-table),
+.completed:after {
+    background-color: #26448f !important;
+}
+
+.onhold > *:not(.list-table),
+.onhold:after {
+    background-color: #f1c83e !important;
+}
+
+.dropped > *:not(.list-table),
+.dropped:after {
+    background-color: #a12f31 !important;
+}
+
+.plantowatch > *:not(.list-table),
+.plantoread > *:not(.list-table),
+.plantowatch:after,
+.plantoread:after {
+    background-color: #c3c3c3 !important;
+}
+/* END */
+
+.list-block,
+.list-unit,
+.list-status-title,
+/*.list-status-title > .text,*/
+.list-stats, .status-menu-container,
+.status-menu, .cover-block,
+#cover-image-container {
+    display: block;
+    width: 100% !important;
+}
+
+.list-unit .list-status-title {
+    display: block;
+    text-align: center;
+    height: auto;
+    padding: 16px 0;
+}
+
+.list-unit .list-status-title .text {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.list-unit .list-status-title .stats {
+    position: static;
+    height: auto;
+    display: block;
+    line-height: normal;
+}
+
+.list-block {
+    margin: 0;
+}
+
+.loading-space {
+    display: none;
+}
+
+.cover-block {
+    padding: 0;
+}
+
+#cover-image-container {
+    padding: 0;
+}
+
+#cover-image-container > #cover-image {
+    margin: auto;
+    max-width: 100%;
+}
+
+.status-menu-container.fixed {
+    left: 0;
+    margin: auto;
+}
+
+.status-menu-container {
+    height: auto;
+}
+
+.list-menu-float {
+    display: none;
+}
+
+@media only screen and (min-width: 1060px) {
+    #list-container {
+        width: 1060px;
+        padding: 0;
+        border: #EBEBEB 1px solid;
+    }
+
+    .list-block, .cover-block{
+        padding: 16px;
+    }
+
+    .header {
+        margin-bottom: 32px;
+    }
+
+    footer {
+        margin-top: 32px;
+    }
+
+    .list-menu-float {
+        display: block;
+    }
+
+    .status-menu-container .status-menu .status-button {
+        margin: 0 16px;
+        display: inline-block;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .header .header-title {
+        margin: 0;
+    }
+}

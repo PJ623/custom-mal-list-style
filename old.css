@@ -1,0 +1,52 @@
+/*
+.status-menu-container .status-menu .status-button.all_anime:after,
+.list-unit.all_anime .list-status-title,
+.list-unit.list-unit.all_anime .list-stats {
+    background-color: #787878;
+}*/
+
+/*
+.status-menu-container .status-menu .status-button.watching:after,
+.status-menu-container .status-menu .status-button.reading:after,
+.list-unit.watching .list-status-title,
+.list-unit.reading .list-status-title,
+.list-unit.list-unit.watching .list-stats,
+.list-unit.list-unit.reading .list-stats {
+    background-color: #2db039;
+}
+*/
+
+/*
+.status-menu-container .status-menu .status-button.completed:after,
+.list-unit.completed .list-status-title,
+.list-unit.list-unit.completed .list-stats {
+    background-color: #26448f;
+}
+*/
+
+/*
+.status-menu-container .status-menu .status-button.onhold:after,
+.list-unit.onhold .list-status-title,
+.list-unit.list-unit.onhold .list-stats {
+    background-color: #f1c83e;
+}
+*/
+
+/*
+.status-menu-container .status-menu .status-button.dropped:after,
+.list-unit.dropped .list-status-title,
+.list-unit.list-unit.dropped .list-stats {
+    background-color: #a12f31;
+}
+*/
+
+/*
+.status-menu-container .status-menu .status-button.plantowatch:after,
+.status-menu-container .status-menu .status-button.plantoread:after,
+.list-unit.plantowatch .list-status-title,
+.list-unit.plantoread .list-status-title,
+.list-unit.list-unit.plantowatch .list-stats,
+.list-unit.list-unit.plantoread .list-stats {
+    background-color: #c3c3c3;
+}
+*/
