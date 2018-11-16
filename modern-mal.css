@@ -34,9 +34,9 @@ body.ownlist {
 .header .header-title {
     display: inline-block;
     text-align: right;
-    background-image: none;
-    width: auto;
-    height: auto;
+    color: rgba(0,0,0,0);
+    width: 213px;
+    /*height: auto;*/
     font-size: 24px;
     text-indent: 0;
     margin-top: 16px;
