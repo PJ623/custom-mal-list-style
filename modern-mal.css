@@ -19,10 +19,14 @@ body.ownlist {
 }
 
 .header {
-    padding: 16px;
     position: static;
     height: auto;
     text-align: right;
+}
+
+.header,
+footer #footer-block {
+    padding: 16px;
 }
 
 .header .header-menu,
@@ -199,10 +203,23 @@ footer > #footer-block,
 
     .header {
         margin-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .header .header-title {
+        margin: 0;
     }
 
     footer {
         margin-top: 32px;
+    }
+
+    .header,
+    footer #footer-block {
+        padding: 24px 32px;
     }
 
     .list-menu-float {
@@ -212,16 +229,5 @@ footer > #footer-block,
     .status-menu-container .status-menu .status-button {
         margin: 0 16px;
         display: inline-block;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row-reverse;
-    }
-
-    .header .header-title {
-        margin: 0;
     }
 }
