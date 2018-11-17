@@ -7,6 +7,28 @@ body.ownlist {
     font-family: Helvetica, sans-serif, Arial;
 }
 
+body.ownlist,
+.list-table .list-table-header .header-title,
+.list-table .list-table-header .header-title .link,
+#copyright {
+    font-size: 16px;
+}
+
+.list-table .list-table-header .header-title,
+.list-table .list-table-header .header-title .link {
+    color: #323232;
+}
+
+.list-table .list-table-header .header-title {
+    background-image: none;
+    border-right: #EBEBEB 1px solid;
+}
+
+.list-table .list-table-header .header-title:first-of-type,
+.list-table .list-table-header .header-title:last-of-type {
+    border-right: none;
+}
+
 #list-container, .header {
     display: block;
     width: 100%;
@@ -136,6 +158,12 @@ footer > #footer-block,
     width: 100% !important;
 }
 
+.list-unit .list-stats {
+    line-height: normal;
+    height: auto;
+    padding-bottom: 16px;
+}
+
 .list-unit .list-status-title {
     display: block;
     text-align: center;
@@ -154,6 +182,19 @@ footer > #footer-block,
     height: auto;
     display: block;
     line-height: normal;
+}
+
+.list-table .list-table-data .data.title .add-edit-more {
+    float: none;
+}
+
+.list-table > .list-item > .list-table-data > td.data {
+    padding: 16px 0;
+}
+
+.list-table > .list-item > .list-table-data > td.data.studio,
+.list-table .list-table-header .header-title.studio {
+    display: none;
 }
 
 .list-block {
@@ -191,6 +232,13 @@ footer > #footer-block,
 }
 
 @media only screen and (min-width: 1060px) {
+    body.ownlist,
+    .list-table .list-table-header .header-title,
+    .list-table .list-table-header .header-title .link,
+    #copyright {
+        font-size: 11px;
+    }
+
     #list-container {
         width: 1060px;
         padding: 0;
@@ -233,5 +281,14 @@ footer > #footer-block,
     .status-menu-container .status-menu .status-button {
         margin: 0 16px;
         display: inline-block;
+    }
+
+    .list-table > .list-item > .list-table-data > td.data {
+        padding: 0;
+    }
+
+    .list-table > .list-item > .list-table-data > td.data.studio,
+    .list-table .list-table-header .header-title.studio {
+        display: table-cell;
     }
 }
