@@ -210,6 +210,10 @@ footer > #footer-block,
     margin: 0;
 }
 
+.list-menu-float {
+    box-sizing: content-box;
+}
+
 .loading-space {
     display: none;
 }
