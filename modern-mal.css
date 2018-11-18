@@ -164,10 +164,10 @@ footer > #footer-block,
 .list-block,
 .list-unit,
 .list-unit .list-status-title,
-.list-stats, .status-menu-container,
+.list-unit .list-stats, .status-menu-container,
 .status-menu, .cover-block,
 #cover-image-container {
-    display: block;
+    /*display: block;*/
     width: 100%;
 }
 
