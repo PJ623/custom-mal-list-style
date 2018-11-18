@@ -9,8 +9,7 @@ body.ownlist {
 
 body.ownlist,
 .list-table .list-table-header .header-title,
-.list-table .list-table-header .header-title .link
-/*.header .header-menu .btn-menu*/ {
+.list-table .list-table-header .header-title .link {
     font-size: 20px;
 }
 
@@ -31,7 +30,6 @@ body.ownlist,
     background-color: #F6F6F6;
     border-right: #EBEBEB 1px solid;
     height: auto;
-    /*padding: 16px 0 16px 8px;*/
 }
 
 .list-table .list-table-header .header-title:not(.status) {
@@ -80,7 +78,6 @@ footer #footer-block {
     text-align: right;
     color: rgba(0,0,0,0);
     width: 213px;
-    /*height: auto;*/
     font-size: 24px;
     text-indent: 0;
     margin-top: 16px;
@@ -122,7 +119,6 @@ footer > #footer-block,
 .status-menu-container .search-container #search-button {
     margin: 0;
     display: inline;
-    /*padding: 16px;*/
 }
 
 .status-menu-container .search-container #search-box {
@@ -167,13 +163,12 @@ footer > #footer-block,
 
 .list-block,
 .list-unit,
-.list-status-title,
-/*.list-status-title > .text,*/
+.list-unit .list-status-title,
 .list-stats, .status-menu-container,
 .status-menu, .cover-block,
 #cover-image-container {
     display: block;
-    width: 100% !important;
+    width: 100%;
 }
 
 .list-unit .list-stats {
@@ -270,8 +265,6 @@ a.icon-watch, a.icon-watch-pv {
     border: none;
 }
 
-/*.status-menu-container,*/
-/*.list-table .list-table-header .header-title,*/
 .list-table .list-table-data .data {
     border-bottom: none;
 }
@@ -281,23 +274,10 @@ td.data.chapter .icon-add-chapter,
 td.data.volume .icon-add-volume {
     display: block;
     background-color: #1d439b;
-    /* put into desktop section
-    width: 20px;
-    height: 20px;
-    */
     padding: 4px;
     margin: 0 16px;
     border-radius: 4px;
 }
-
-/*
-td.data.progress .icon-add-episode .fa.fa-plus-circle, 
-td.data.chapter .icon-add-chapter .fa.fa-plus-circle,
-td.data.volume .icon-add-volume .fa.fa-plus-circle {
-    background-color: white;
-    border-radius: 50%;
-}
-*/
 
 .fa.fa-plus-circle {
     text-align: center;
@@ -321,11 +301,6 @@ td.data.volume .icon-add-volume .fa.fa-plus-circle {
     .header .header-menu .header-info {
         font-size: 11px;
     }
-
-    /*
-    .header .header-menu .btn-menu {
-        font-size: 16px;
-    }*/
 
     #list-container {
         width: 1060px;
@@ -389,12 +364,6 @@ td.data.volume .icon-add-volume .fa.fa-plus-circle {
         border-right: #EBEBEB 1px solid;
     }
 
-    /*
-    a.icon-watch, a.icon-watch-pv {
-        display: inline-block;
-    }
-    */
-
     .list-table .list-table-header .header-title:not(.status) {
         padding: 8px;
     }
@@ -407,17 +376,9 @@ td.data.volume .icon-add-volume .fa.fa-plus-circle {
         border: #EBEBEB 1px solid;
     }
 
-    /*.status-menu-container,*/
-    /*.list-table .list-table-header .header-title,*/
     .list-table .list-table-data .data {
         border-bottom: #EBEBEB 1px solid;
     }
-
-    /*
-    .list-table > .list-item > .list-table-data > td.data.title {
-        padding-left: 0px;
-    }
-    */
 
     td.data.progress .icon-add-episode,
     td.data.chapter .icon-add-chapter,
