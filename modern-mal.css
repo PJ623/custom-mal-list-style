@@ -280,6 +280,37 @@ td.data.progress .icon-add-episode,
 td.data.chapter .icon-add-chapter,
 td.data.volume .icon-add-volume {
     display: block;
+    background-color: #1d439b;
+    /* put into desktop section
+    width: 20px;
+    height: 20px;
+    */
+    padding: 4px;
+    margin: 0 16px;
+    border-radius: 4px;
+}
+
+/*
+td.data.progress .icon-add-episode .fa.fa-plus-circle, 
+td.data.chapter .icon-add-chapter .fa.fa-plus-circle,
+td.data.volume .icon-add-volume .fa.fa-plus-circle {
+    background-color: white;
+    border-radius: 50%;
+}
+*/
+
+.fa.fa-plus-circle {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa.fa-plus-circle:before {
+    content: "+";
+    color: white;
+    width: inherit;
+    height: inherit;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 @media only screen and (min-width: 1060px) {
@@ -392,5 +423,17 @@ td.data.volume .icon-add-volume {
     td.data.chapter .icon-add-chapter,
     td.data.volume .icon-add-volume {
         display: inline-block;
+        margin: 0;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+    }
+
+    .fa.fa-plus-circle:before {
+        content: "+";
+        color: #1d439b;
+        width: inherit;
+        height: inherit;
+        font-weight: bold;
+        font-family: monospace;
     }
 }

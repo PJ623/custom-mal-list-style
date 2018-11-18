@@ -28,5 +28,6 @@ watching: #2db039
 onhold: #f1c83e
 dropped: #a12f31
 plantowatch: #c3c3c3
+link color: #1d439b
 
 original font-size from body: 11px;
